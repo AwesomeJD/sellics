@@ -1,0 +1,18 @@
+
+
+server:
+  port: 8080
+
+service:
+  amazon:
+    api:
+      endpoint: https://completion.amazon.com/api/2017/suggestions
+      marketId: ATVPDKIKX0DER
+      alias: aps
+
+search-word:
+  weight:
+    full-match: 1
+    prefix-match-all: 0.9f
+    prefix-match-any: 0.8f
+    contains-match: 0.7f
