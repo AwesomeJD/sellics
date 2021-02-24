@@ -20,6 +20,7 @@ is one of the hottest keywords in all of ​amazon.com​ right now.
         }
 
 #Get the solution running...
+
 The application is a spring-boot application, and can be run by running the main class. ApplicationBootStrap.java
 
     URL: http://localhost:8080/estimate?keyword=Iphone
